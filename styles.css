@@ -1,0 +1,102 @@
+.app {
+	background-color: #fff;
+	max-width: 615px;
+	height: auto;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 5px;
+	border: 3px solid #ccc;
+}
+.contactForm {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 700px;
+	align-content: stretch;
+	border: 3px solid #ccc;
+	border-radius: 5px;
+	padding: 20px;
+
+}
+
+input {
+	line-height: 20px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	margin: 10px;
+	outline: none;
+
+}
+
+.contactForm button {
+	padding: 8px 18px;
+	background-color: #efefef;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	color: #828282;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin: 10px 0 0 10px;
+}
+
+img {
+	width: 30px;
+	height: 30px;
+	background-color: #ccc;
+	padding: 10px;
+	border-radius: 50%;
+	display: inline-block;
+	float: left;
+}
+
+.contactItem {
+	margin: 20px 0;
+	background-color: #efefef;
+	border-radius: 5px;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.contactImage {
+	margin-right: 15px;
+}
+
+.contactLabel {
+	margin: 0;
+	padding-right: 3px;
+}
+
+.contactEmail {
+	margin: 0;
+	padding: 0 0 0 65px;
+	lex: none;
+	width: 100%;
+	isplay: inline-block;
+	loat: left;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+p, a {
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+
+	font-size: 14px;
+}
+
+p {
+	line-height: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: #cf31f7;
+	font-weight: 500;
+	text-transform: none;
+}
